@@ -1,8 +1,12 @@
+import os
 import re
+import json
+import random
 
-user_credentials=[{}]
+
 
 def accountcreation():
+    user_credentials={}
     create_account=input("Do you want to create a new account?")
     checklower =  create_account.lower()
     if checklower == 'yes':
@@ -57,23 +61,45 @@ def accountcreation():
           continue
          else:
            print(str(initial_deposit_amount) + " Added to your account successfully!")
+           user_credentials["Initial deposit amount"]=initial_deposit_amount
            break
 
-        import random
+        
         account_number=random.randint(1000,2000)
         print("Your account number is:", account_number )
         user_credentials["Account Number"]=account_number
-             
-        
-
-        print(user_credentials)
+          
+        save_data(user_credentials)
         print("Congratulations! Your account has successfully been created.")
     else: 
         print("Existing")
     
- 
-accountcreation() 
+
+# accountcreation() 
    
 # {     
 # "1001":{'Name': 'fgvybh', 'Phone Number': '567', 'Address': 'erfgth'},
 # "1002":{'Name': 'fgvybh', 'Phone Number': '567', 'Address': 'erfgth'}} 
+def load_data():
+  if os.path.exists('data.json'):
+    with open("data.json","r") as file:
+      return file.read()
+  return {}
+    
+
+
+def save_data(user_data):
+  with open("data.json","w") as file:
+    json.dump(user_data,file, indent=4)
+
+def main():
+  accountcreation()
+
+  print("Showing data")
+  load_data()
+  
+
+
+
+
+main()
