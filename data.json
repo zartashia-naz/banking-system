@@ -1,9 +1,102 @@
 {
-    "2847": {
-        "Name": "rtte"
-    }
-}{
-    "2219": {
-        "Name": "werr"
-    }
+  "1255": {
+    "Name": "Alice",
+    "CNIC": "1234567890123",
+    "Phone Number": "03101234567",
+    "Address": "12 Green Street",
+    "password": "std_123@",
+    "Date of Birth": "15/07/1990",
+    "Email Address": "alice@example.com",
+    "Initial deposit amount": 5000
+  },
+  "2451": {
+    "Name": "Bob",
+    "CNIC": "9876543210123",
+    "Phone Number": "03021234567",
+    "Address": "34 Blue Avenue",
+    "password": "user_456#",
+    "Date of Birth": "22/09/1988",
+    "Email Address": "bob@mail.com",
+    "Initial deposit amount": 7500
+  },
+  "3892": {
+    "Name": "Charlie",
+    "CNIC": "3456789012345",
+    "Phone Number": "03211234567",
+    "Address": "56 Red Lane",
+    "password": "pass_789!",
+    "Date of Birth": "10/03/1992",
+    "Email Address": "charlie@test.com",
+    "Initial deposit amount": 6800
+  },
+  "4510": {
+    "Name": "Diana",
+    "CNIC": "5678901234567",
+    "Phone Number": "03451234567",
+    "Address": "78 Orange Road",
+    "password": "bank_987$",
+    "Date of Birth": "05/11/1995",
+    "Email Address": "diana@mail.com",
+    "Initial deposit amount": 9200
+  },
+  "5123": {
+    "Name": "Eve",
+    "CNIC": "7890123456789",
+    "Phone Number": "03561234567",
+    "Address": "90 Yellow Drive",
+    "password": "safe_654%",
+    "Date of Birth": "20/06/1991",
+    "Email Address": "eve@example.com",
+    "Initial deposit amount": 4700
+  },
+  "6342": {
+    "Name": "Frank",
+    "CNIC": "9012345678901",
+    "Phone Number": "03171234567",
+    "Address": "23 White Blvd",
+    "password": "std_123@",
+    "Date of Birth": "11/04/1989",
+    "Email Address": "frank@test.com",
+    "Initial deposit amount": 8000
+  },
+  "7489": {
+    "Name": "Grace",
+    "CNIC": "0123456789012",
+    "Phone Number": "03321234567",
+    "Address": "45 Silver Park",
+    "password": "user_456#",
+    "Date of Birth": "28/02/1993",
+    "Email Address": "grace@mail.com",
+    "Initial deposit amount": 5600
+  },
+  "8201": {
+    "Name": "Hank",
+    "CNIC": "2345678901234",
+    "Phone Number": "03091234567",
+    "Address": "67 Gold Plaza",
+    "password": "pass_789!",
+    "Date of Birth": "12/12/1985",
+    "Email Address": "hank@example.com",
+    "Initial deposit amount": 7100
+  },
+  "9345": {
+    "Name": "Ivy",
+    "CNIC": "4567890123456",
+    "Phone Number": "03411234567",
+    "Address": "89 Bronze Street",
+    "password": "bank_987$",
+    "Date of Birth": "03/08/1994",
+    "Email Address": "ivy@mail.com",
+    "Initial deposit amount": 6300
+  },
+  "1023": {
+    "Name": "Jack",
+    "CNIC": "6789012345678",
+    "Phone Number": "03101234568",
+    "Address": "21 Purple Lane",
+    "password": "safe_654%",
+    "Date of Birth": "18/01/1990",
+    "Email Address": "jack@test.com",
+    "Initial deposit amount": 5900
+  }
 }
